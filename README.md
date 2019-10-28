@@ -1,27 +1,16 @@
-# MyApp
+# How to Set Up Angular Unit Testing with Jest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+This is the companion repository for the blog post ["How to Set Up Angular Unit Testing with Jest"](https://www.amadousall.com/how-to-set-up-angular-unit-testing-with-jest).
 
-## Development server
+The code is up to date for Angular v8.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installing the dependencies
+```bash
+yarn
+```
+## Running the unit tests
+```bash
+npx jest
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> If you enjoyed this article, follow [@ahasall](https://twitter.com/ahasall) on Twitter for more content like this.
